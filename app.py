@@ -9,12 +9,8 @@ Price and profit estimation
 import streamlit as st
 import pandas as pd
 import numpy as np
-# # import plotly
-# # import plotly.graph_objs as go
-# import re
-# import tkinter
-# import plotly.figure_factory as ff
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+
 
 
 param_1 = st.sidebar.number_input("Annualized Technology cost:",10000)
@@ -71,7 +67,6 @@ for i in price:
 
 st.write("Yearly Profitability calculation of a per Report subscription pricing")
 
-import matplotlib.pyplot as plt
 
 plt.figure()
 
