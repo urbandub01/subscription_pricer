@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 param_1 = st.sidebar.number_input("Annualized Technology cost:",10000)
 param_2 = st.sidebar.number_input("Annualized R&D Personnel costs:",10000)
